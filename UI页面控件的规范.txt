@@ -1,0 +1,23 @@
+1. 管理页面:
+   使用small尺寸的按钮
+	<el-button type="primary" size="small">查询</el-button>
+	<el-button type="success" size="small">新增</el-button>
+	<el-button type="danger" size="small">删除</el-button>
+	<el-button type="primary" size="small">修改</el-button>
+2. dialog弹窗:
+   使用常规尺寸的按钮
+	<el-button type="primary">保存</el-button>
+	<el-button type="success">重置</el-button>
+	<el-button type="info">取消</el-button>
+3. 操作列的按钮:
+   使用small尺寸的按钮
+	<el-button type="primary" size="small">xxx</el-button>
+	<el-button type="success" size="small">xxxx</el-button>
+	<el-button type="danger" size="small">xxx</el-button>
+	<el-button type="info" size="small">xxxx</el-button>
+4. table的样式:
+	不添加border和size="mini"属性
+	 <el-table
+	    tooltip-effect="dark"
+	    style="width: 100%"
+	    highlight-current-row>
